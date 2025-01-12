@@ -6,10 +6,10 @@ const Hero = () => {
 
   // Array of image URLs
   const images = [
-    "/images/hero.jpg",
-    "/images/hero5.jpg",
-    "/images/hero1.jpg",
-    "/images/hero6.jpg",
+    "public//images/hero.jpg",
+    "public//images/hero5.jpg",
+    "public//images/hero1.jpg",
+    "public//images/hero6.jpg",
   ];
 
   // Automatically switch images every 5 seconds
@@ -48,7 +48,6 @@ const Hero = () => {
           <p className="text-white text-sm mb-3 lg:text-3xl">
             Discover the latest trends.
           </p>
-          
         </div>
       </div>
     </div>
